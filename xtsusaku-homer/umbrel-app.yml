@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: xtsusaku-homer
+name: Homer
+tagline: A dead simple static HOMepage for your servER to keep your services on hand, from a simple yaml configuration file.
+icon: https://raw.githubusercontent.com/bastienwirtz/homer/main/public/logo.png
+category: Home & Automation
+version: "1.0.0"
+port: 4001
+description: >-
+  Homer is a full static html/js dashboard, based on a simple yaml configuration file.
+  
+  See documentation for information about the configuration (assets/config.yml) options.
+
+  It's meant to be served by an HTTP server, it will not work if you open the index.html directly over file:// 
+
+developer: bastienwirtz
+website: https://github.com/bastienwirtz/
+submitter: xTsuSaKu
+submission: https://github.com/bastienwirtz/homer
+repo: https://github.com/bastienwirtz/homer
+support: https://www.buymeacoffee.com/bastien
+gallery:
+  - https://camo.githubusercontent.com/22f0b90b2c9ec4f1c9ec9ed920bb7b794bc1f1ac93bf61099ef298369b8850e5/68747470733a2f2f7261772e6769746875622e636f6d2f6261737469656e776972747a2f686f6d65722f6d61696e2f646f63732f73637265656e73686f742e706e67
+releaseNotes: >-
+  Update App Linting!
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
