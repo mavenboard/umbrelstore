@@ -1,32 +1,23 @@
 manifestVersion: 1
-id: xtsusaku-gethomepage
-name: Get HomePage
-tagline: A modern, fully static, fast, secure fully proxied, highly customizable application dashboard with integrations for over 100 services and translations into multiple languages. Easily configured via YAML files or through docker label discovery.
-icon: https://avatars.githubusercontent.com/u/122929872?s=48&v=4
-category: Home & Automation
+id: pi-vpn
+name: piVPN
+tagline: The simplest way to setup and manage a VPN, designed for Raspberry Pi. 
+icon: https://www.pivpn.io/images/pivpnlogo.png
+category: Development
 version: "1.0.0"
-port: 4002
 description: >-
-  A modern, fully static, fast, secure fully proxied, highly customizable application dashboard
-  with integrations for over 100 services and translations into multiple languages.
-  
-  Easily configured via YAML files or through docker label discovery.
-
-developer: gethomepage
-website: https://github.com/gethomepage/homepage
-submitter: xTsuSaKu
-submission: https://github.com/xtsusaku/xtsusaku-uca-store/xtsusaku-gethomepage
-repo: https://github.com/gethomepage/homepage
-support: https://ko-fi.com/benphelps
+   PiVPN is a set of shell scripts developed to easily turn your Raspberry Pi™ into a VPN server using two free, open-source protocols: Wireguard and OpenVPN
+Docker Compose script was "stolen" from https://github.com/archef2000/pivpn-docker (thanks archef!)
+developer: pivpn
+website: https://www.pivpn.io/
+submitter: mavenboard
+submission: https://github.com/mavenboard/umbrelstore/edit/master/pi-vpn/
+repo: https://github.com/pivpn/pivpn
+support: none
 gallery:
-  - https://github.com/gethomepage/homepage/blob/main/images/1.png?raw=true
-  - https://github.com/gethomepage/homepage/blob/main/images/2.png?raw=true
-  - https://github.com/gethomepage/homepage/blob/main/images/3.png?raw=true
-  - https://github.com/gethomepage/homepage/blob/main/images/4.png?raw=true
-  - https://github.com/gethomepage/homepage/blob/main/images/5.png?raw=true
-  - https://github.com/gethomepage/homepage/blob/main/images/6.png?raw=true
+
 releaseNotes: >-
-  Fix: Peanut widget v2 api compatibility
+  Fix: 
 dependencies: []
 path: ""
 defaultUsername: ""
