@@ -1,0 +1,9 @@
+[Interface]
+ListenPort = 51820
+PrivateKey = WBF+mLXnbwMYQ25T/fkW7SZgQO5v7d/je9eMkaYZwXs=
+DNS = 0.0.0.0
+
+[Peer]
+PublicKey = Er3jIjt8d/8r42J7+2P8YkraRKN4IwWKN5FPzOWwdj8=
+PresharedKey = 6wofDmLeYjHUS7wD6Frj6IwcAxj7RZDerGkyeL8c3OA=
+AllowedIPs = 10.8.0.2/3
